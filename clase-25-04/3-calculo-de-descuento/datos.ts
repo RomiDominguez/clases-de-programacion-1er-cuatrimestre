@@ -1,8 +1,6 @@
-let precio = document.getElementById("precio");
-let btnDescuento = document.getElementById("btnDescuento");
-let descuento: number = 0.1;
+let precioInicial: number = 450.5;
+let porcentajeDescuento: number = 0.1;
+let descuento: number = precioInicial * porcentajeDescuento;
+let valorFinal: number = precioInicial - descuento;
 
-btnDescuento.addEventListener ("click", () => {
-  let precioProducto: number = Number(precio.value);
-  let resultado: number =
-});
+console.log("El descuento es de:", valorFinal);
